@@ -12,8 +12,7 @@
 void merge(int *array, size_t size, size_t left,
 		size_t mid, size_t right, int *temp)
 {
-	size_t i = left;
-	size_t j = mid + 1;
+	size_t i = left, j = mid + 1;
 	size_t k = 0, l;
 
 	(void)size;
